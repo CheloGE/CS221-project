@@ -161,3 +161,6 @@ cython_debug/
 
 # docs/proposal
 docs/proposal/
+
+# docs/progress_report
+docs/progress_report/
