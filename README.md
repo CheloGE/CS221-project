@@ -1,6 +1,6 @@
 # Highway-env DQN
 
-This project is a reinforcement learning implementation of the highway-env environment. The environment is a highway with 3 lanes and other vehicles. The agent is a car that has to learn how to drive in the highway without crashing. The agent is rewarded for driving fast and penalized for crashing. The agent is trained using a Deep Q Network (DQN) algorithm.
+This project is a reinforcement learning implementation of the [highway-env environment](https://github.com/Farama-Foundation/HighwayEnv). The environment is a highway with 3 lanes and other vehicles. The agent is a car that has to learn how to drive in the highway without crashing. The agent is rewarded for driving fast and penalized for crashing. The agent is trained using a Deep Q Network (DQN) algorithm.
 
 <p float="left">
   <figcaption>Random Agent</figcaption>
