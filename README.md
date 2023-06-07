@@ -1,3 +1,20 @@
+# Highway-env DQN
+
+This project is a reinforcement learning implementation of the highway-env environment. The environment is a highway with 3 lanes and other vehicles. The agent is a car that has to learn how to drive in the highway without crashing. The agent is rewarded for driving fast and penalized for crashing. The agent is trained using a Deep Q Network (DQN) algorithm.
+
+<p float="left">
+  <figcaption>Random Agent</figcaption>
+  <img src="./docs/random_agent.gif" width="400" />
+    <figcaption>DQN Agent</figcaption>
+    <img src="./docs/DQN_agent.gif" width="400" />
+    
+</p>
+
+## Video Demo
+
+[![Alt text](https://img.youtube.com/vi/NEgO0S9f-Lo/0.jpg)](https://www.youtube.com/watch?v=NEgO0S9f-Lo)
+
+
 ## Install dependencies with docker
 
 For this project a docker container was created. Please follow these steps to setup the environment (you should be in the same path as the dockerfile):
@@ -17,3 +34,4 @@ For this project a docker container was created. Please follow these steps to se
     `docker start highwayenv`
 
     `docker exec -it highwayenv bash`
+
